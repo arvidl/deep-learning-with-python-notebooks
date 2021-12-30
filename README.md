@@ -7,6 +7,14 @@ For readability, these notebooks only contain runnable code blocks and section t
 
 These notebooks use TensorFlow 2.6.
 
+## Install (Ubuntu 20.04)
+```
+conda create -n tf2 python=3.8 ipython -y && conda activate tf2
+conda install jupyter
+conda install jupyter
+pip install tensorflow
+```
+
 ## Table of contents
 
 * [Chapter 2: The mathematical building blocks of neural networks](https://colab.research.google.com/github/fchollet/deep-learning-with-python-notebooks/blob/master/chapter02_mathematical-building-blocks.ipynb)
