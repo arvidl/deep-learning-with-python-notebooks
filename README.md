@@ -13,6 +13,7 @@ conda create -n tf2 python=3.8 ipython -y && conda activate tf2
 conda install jupyter
 conda install jupyter
 pip install tensorflow
+python -m ipykernel install --user --name tf2 --display-name "TF2"
 ```
 
 ## Table of contents
